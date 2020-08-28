@@ -148,3 +148,8 @@ asta
         238     Fragmented BUSCOs (F)
         249     Missing BUSCOs (M)
         5286    Total BUSCO groups searched
+
+
+# BUSCO summary
+# lepidoptera_odb10
+reference		mapper	scaffolds		N50	Total_Contigs_Length	Non_ATGC_Characters BUSCO_library	BUSCO_C_SCO
