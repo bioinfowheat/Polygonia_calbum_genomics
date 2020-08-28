@@ -4,12 +4,18 @@ cd /mnt/griffin/Polygonia_genome
 
 # placing genomes in this folder
 cd genomes
-ln -s /mnt/griffin/chrwhe/software/HaploMerger2_20180603/Pc_album_haplomerger_run1/Pc_album.mpss.cln.msk.haploidA.tndrm.fa .
-ln -s /mnt/griffin/chrwhe/software/HaploMerger2_20180603/Pc_album_haplomerger_run1/Pc_album.mpss.cln.msk.haploidA.fa .
-ln -s /mnt/griffin/chrwhe/Polygonia_calbum/polishing/bwa_polish/pilon.fasta Pc_album.mpss.cln.msk.haploidA.tndrm.bwa_70_sub_polish.fa
-ln -s /mnt/griffin/chrwhe/Polygonia_calbum/polishing/ngm_full_polish/pilon.fasta Pc_album.mpss.cln.msk.haploidA.tndrm.ngm_70_sub_polish.fa
-ln -s /mnt/griffin/chrwhe/Polygonia_calbum/polishing/pilon.fasta Pc_album.mpss.cln.msk.haploidA.tndrm.snap_q20_70_sub_polish.fa
+cp /mnt/griffin/chrwhe/software/HaploMerger2_20180603/Pc_album_haplomerger_run1/Pc_album.mpss.cln.msk.haploidA.tndrm.fa .
+cp /mnt/griffin/chrwhe/software/HaploMerger2_20180603/Pc_album_haplomerger_run1/Pc_album.mpss.cln.msk.haploidA.fa .
+cp /mnt/griffin/chrwhe/Polygonia_calbum/polishing/bwa_polish/pilon.fasta Pc_album.mpss.cln.msk.haploidA.tndrm.bwa_70_sub_polish.fa
+cp /mnt/griffin/chrwhe/Polygonia_calbum/polishing/ngm_full_polish/pilon.fasta Pc_album.mpss.cln.msk.haploidA.tndrm.ngm_70_sub_polish.fa
+cp /mnt/griffin/chrwhe/Polygonia_calbum/polishing/pilon.fasta Pc_album.mpss.cln.msk.haploidA.tndrm.snap_q20_70_sub_polish.fa
 
+# making softlinks of these in your local folder
+ln -s /mnt/griffin/Polygonia_genome/genomes/Pc_album.mpss.cln.msk.haploidA.tndrm.fa .
+ln -s /mnt/griffin/Polygonia_genome/genomes/Pc_album.mpss.cln.msk.haploidA.fa .
+ln -s /mnt/griffin/Polygonia_genome/genomes/Pc_album.mpss.cln.msk.haploidA.tndrm.bwa_70_sub_polish.fa .
+ln -s /mnt/griffin/Polygonia_genome/genomes/Pc_album.mpss.cln.msk.haploidA.tndrm.ngm_70_sub_polish.fa .
+ln -s /mnt/griffin/Polygonia_genome/genomes/Pc_album.mpss.cln.msk.haploidA.tndrm.snap_q20_70_sub_polish.fa .
 
 
 # assembly stats
