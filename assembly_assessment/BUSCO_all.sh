@@ -144,3 +144,58 @@ head -30 Pc_album.mpss.cln.msk.haploidA_v_lep_odb10/short_summary.specific.lepid
         248     Fragmented BUSCOs (F)
         256     Missing BUSCOs (M)
         5286    Total BUSCO groups searched
+        
+#Maria's BUSCO work
+# Pc_album.mpss.cln.msk.haploidA.tndrm.bwa_70_sub_polish.fa
+
+
+        ***** Results: *****
+
+        C:90.9%[S:90.5%,D:0.4%],F:4.5%,M:4.6%,n:5286
+        4804    Complete BUSCOs (C)
+        4784    Complete and single-copy BUSCOs (S)
+        20      Complete and duplicated BUSCOs (D)
+        240     Fragmented BUSCOs (F)
+        242     Missing BUSCOs (M)
+        5286    Total BUSCO groups searched
+
+# Pc_album.mpss.cln.msk.haploidA.tndrm.fa
+
+
+
+        ***** Results: *****
+
+        C:90.4%[S:90.1%,D:0.3%],F:4.7%,M:4.9%,n:5286
+        4782    Complete BUSCOs (C)
+        4765    Complete and single-copy BUSCOs (S)
+        17      Complete and duplicated BUSCOs (D)
+        248     Fragmented BUSCOs (F)
+        256     Missing BUSCOs (M)
+        5286    Total BUSCO groups searched
+
+# Pc_album.mpss.cln.msk.haploidA.tndrm.ngm_70_sub_polish.fa
+
+
+        ***** Results: *****
+
+        C:90.8%[S:90.5%,D:0.3%],F:4.5%,M:4.7%,n:5286
+        4799    Complete BUSCOs (C)
+        4783    Complete and single-copy BUSCOs (S)
+        16      Complete and duplicated BUSCOs (D)
+        238     Fragmented BUSCOs (F)
+        249     Missing BUSCOs (M)
+        5286    Total BUSCO groups searched
+
+# Pc_album.mpss.cln.msk.haploidA.tndrm.snap_q20_70_sub_polish.fa
+
+
+        ***** Results: *****
+
+        C:90.6%[S:90.3%,D:0.3%],F:4.6%,M:4.8%,n:5286
+        4789    Complete BUSCOs (C)
+        4771    Complete and single-copy BUSCOs (S)
+        18      Complete and duplicated BUSCOs (D)
+        243     Fragmented BUSCOs (F)
+        254     Missing BUSCOs (M)
+        5286    Total BUSCO groups searched
+
