@@ -91,3 +91,17 @@ braker.pl --species=$species --genome=$genome \
 --bam=bamfiles --prot_seq=$proteins \
 --prg=gth --gth2traingenes --cores 40 \
 --softmasking
+
+#location RNA-seq data
+
+#gut and hosts
+/mnt/griffin/marcel/trimmedReads_Polygonia_c_album
+
+#antennae tarsi 
+/mnt/griffin/marcel/at
+
+#whole body dif dev stages (HV) just transcriptome
+
+/mnt/griffin/marcel/modularity/Pca/Pca_transcriptomes/
+
+
