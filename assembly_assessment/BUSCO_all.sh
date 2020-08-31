@@ -204,10 +204,10 @@ head -30 Pc_album.mpss.cln.msk.haploidA_v_lep_odb10/short_summary.specific.lepid
 
 
 	BUSCO						Assembly stats			
-assembly	C:	S: 	D: 	F: 	M: 	n:	N50	max contig length	total contigs length	total non-ATGC content
-haploidA	90.4%	90.1	0.3	4.7	4.9	5286	572,497	3,782,336	379,412,830	46,071,815
-haploidA tndrm	90.4%	90.1	0.3	4.7	4.9		571,236	3,782,336	376,640,412	46,053,749
-bwa	90.9%	90.5	0.4	4.5	4.6		559,704	3,693,197	370,154,884	38,454,735
-ngm	90.8%	90.5	0.3	4.5	4.7		562,921	3,724,345	372,145,961	40,282,370
-snap	90.6%	90.3	0.3	4.6	4.8		562,893	3,716,248	371,847,733	41,383,555
+assembly	C:	S: 	D: 	F: 	M: 	n:	N50	   max contig length	  total contigs length	  total non-ATGC content
+haploidA	90.4%	90.1	0.3	4.7	4.9	5286	572,497 	   3,782,336	        379,412,830	              46,071,815
+haploidA tndrm	90.4%	90.1	0.3	4.7	4.9		571,236 	   3,782,336    	376,640,412                   46,053,749
+bwa	        90.9% 	90.5	0.4	4.5     4.6		559,704	           3,693,197	        370,154,884	              38,454,735
+ngm     	90.8%	90.5	0.3	4.5	4.7		562,921	           3,724,345	        372,145,961	              40,282,370
+snap    	90.6%	90.3	0.3	4.6	4.8		562,893	           3,716,248	        371,847,733	              41,383,555
 
