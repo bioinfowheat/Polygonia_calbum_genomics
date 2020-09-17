@@ -49,7 +49,8 @@ export AUGUSTUS_CONFIG_PATH=$your_working_dir/augustus_config
 
 
 # now set paths to the other tools
-export PATH=/mnt/griffin/chrwhe/software/BRAKER2_v2.1.5/scripts/:$PATH
+# export PATH=/mnt/griffin/chrwhe/software/BRAKER2_v2.1.5/scripts/:$PATH
+export PATH=/data/programs/BRAKER2_v2.1.5/scripts/:$PATH
 export AUGUSTUS_BIN_PATH=/data/programs/Augustus_v3.3.3/bin
 export AUGUSTUS_SCRIPTS_PATH=/data/programs/Augustus_v3.3.3/scripts
 export DIAMOND_PATH=/data/programs/diamond_v0.9.24/
