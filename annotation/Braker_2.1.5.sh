@@ -46,7 +46,7 @@ cp gm_key ~/.gm_key
 your_working_dir=$(pwd)
 cp -r /data/programs/Augustus_v3.3.3/config/ $your_working_dir/augustus_config
 export AUGUSTUS_CONFIG_PATH=$your_working_dir/augustus_config
-
+chmod -R 777 $your_working_dir/augustus_config
 
 # now set paths to the other tools
 # export PATH=/mnt/griffin/chrwhe/software/BRAKER2_v2.1.5/scripts/:$PATH
