@@ -90,3 +90,16 @@ Segmentation fault
 /data/programs/Augustus_v3.3.3/bin/joingenes --genesets=/mnt/griffin/marcel/Pca_genome/braker2_test/braker/augustus.E.gtf,/mnt/griffin/marcel/Pca_genome/braker2_test/braker/augustus.Ppri5.gtf_filtered --priorities=2,1 --output=/mnt/griffin/marcel/Pca_genome/braker2_test/braker/join.gtf 1> /dev/null 2> /mnt/griffin/marcel/Pca_genome/braker2_test/braker/errors/joingenes.err
 # returns
 Segmentation fault
+
+# note:
+Sorry, that was a misunderstanding on my side. There are several things:
+
+BRAKER --epmode: This is what we recommend for training AUGUSTUS within BRAKER using proteins of any evolutionary distance.
+
+BRAKER --etpmode: This is a premature pipeline. It can be used, but on the poster from PAG 2020, you will find that it does not always perform better than using protein or RNA-Seq alone. However, if you want to mix RNA-Seq and proteins, anyway, use this. The pipeline is subject to constant changes, and I expect largest improvements in BRAKER in --etpmode within the next year.
+
+BRAKER with GenomeThreader: we recommended this while ProtHint wasn't available, yet. I currently do not recommend it and will not further maintain it.
+
+BRAKER with GenomeThreader and RNA-Seq for training: was always unstable in accuracy across different species. I won't work on improving it.
+
+Long story short: we currently cannot clearly recommend to mix RNA-Seq and protein data without manual checking whether that leads to an improvement or makes predictions worse.

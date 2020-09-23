@@ -122,9 +122,15 @@ grep '>' braker_test.prot.fa | grep '.t1' | wc -l
 ###############
 # other option notes from https://github.com/Gaius-Augustus/BRAKER#what-is-braker
 
+#######
+# BRAKER with RNA-Seq
+bamfiles=Pae1C03Aligned.out.bam,Pae1C06Aligned.out.bam,Pae1C12Aligned.out.bam
+braker.pl --genome=genome.fa--bam=$bamfiles --softmasking
+
+
 
 #######
-# BRAKER with RNA-Seq and distant protein data
+# BRAKER with RNA-Seq and distant protein data - EXPERIMENTAL AND DOESN'T WORK!!!!!!!!
 braker.pl --genome=genome.fa --prot_seq=orthodb.fa --bam=file1.bam,file2.bam --etpmode --softmasking
 # or
 bamfiles=Pae1C03Aligned.out.bam,Pae1C06Aligned.out.bam,Pae1C12Aligned.out.bam
