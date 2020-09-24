@@ -23,7 +23,8 @@ cd /mnt/griffin/chrwhe/Polygonia_calbum
 mkdir Polygonia_calbum_poolseq_data
 cd Polygonia_calbum_poolseq_data
 # transfer
-scp chrisbak@ren.lan.zoologi.su.se:/share/chrisbak/reads6/compressed/Polygonia_c-album.SWE.13-15.Stockholm.HA_FIeld.Thorax.36*gz .
+scp chrisbak@ren.lan.zoologi.su.se:/share/chrisbak/reads6/compressed/Polygonia_c-album.SWE.13-15.Stockholm.HA_FIeld.Thorax.36_1.fastq.gz .
+scp chrisbak@ren.lan.zoologi.su.se:/share/chrisbak/reads6/compressed/Polygonia_c-album.SWE.13-15.Stockholm.HA_Field.Thorax.36_2.fastq.gz .
 
 sudo mv /mnt/griffin/chrwhe/Polygonia_calbum/Polygonia_calbum_poolseq_data /mnt/griffin/Reads/
 sudo chown -R :general /mnt/griffin/Reads/
