@@ -185,3 +185,6 @@ more $Prefix.qr1_filter.coords
 
 # get output for circle plot
 cat $Prefix.qr1_filter.coords | sed 1,5d | tr -s ' ' | awk 'BEGIN {FS=" "; OFS=","} {;print $1,$2,$4,$5,$7,$8,$10,$12,$13,$18,$19}' > $Prefix.qr1_filter.reformat.coords
+
+
+######### promer
