@@ -3,7 +3,7 @@ Polygonia calbum genome
 
 # Colias_crocea genome and annotation #
 
-Release 28 May 2020
+Release 1 December 2020
 
 Genomics resources for Colias crocea (Pieridae; Lepidoptera) from Woronik et al. 2019
 
