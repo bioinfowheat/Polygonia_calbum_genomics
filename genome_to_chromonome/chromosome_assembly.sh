@@ -6,6 +6,26 @@ find . /mnt/griffin/chrwhe/Pc_album/linkagemap -name "*.agp" > agp_files
 while read p; do ln $p . ; done < agp_files
 ln -s /mnt/griffin/chrwhe/Pc_album/final/Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa .
 
+-------------------------------
+    AssemblyQC Result
+-------------------------------
+Contigs Generated :       14,904
+Maximum Contig Length : 3,740,340
+Minimum Contig Length :      502
+Average Contig Length : 25,059.5 ± 133,414.4
+Median Contig Length :   2,715.5
+Total Contigs Length :  373,486,500
+Total Number of Non-ATGC Characters :   43,176,850
+Percentage of Non-ATGC Characters :       11.560
+Contigs >= 100 bp :       14,904
+Contigs >= 200 bp :       14,904
+Contigs >= 500 bp :       14,904
+Contigs >= 1 Kbp :        14,773
+Contigs >= 10 Kbp :        1,215
+Contigs >= 1 Mbp :            69
+N50 value :      563,079
+Generated using /mnt/griffin/chrwhe/Polygonia_calbum/final/Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa
+
 #
 perl /mnt/griffin/chrwhe/software/agp2genome.pl chr1.agp Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa
 
