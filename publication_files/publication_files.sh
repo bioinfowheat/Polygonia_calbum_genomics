@@ -12,7 +12,7 @@ cp /mnt/griffin/chrwhe/Polygonia_calbum/chromosome_level/Pcalbum_chromosome_and_
 
 /mnt/griffin/Polygonia_genome/publication_files/Pcalbum_chromosome_and_unplaced.fa
 
-
+# yes
 # need annotation file for new genome
 
 
