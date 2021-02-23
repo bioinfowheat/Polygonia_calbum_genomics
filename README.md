@@ -13,9 +13,8 @@ reference needed here. Link below needs updating once established
 
 ### Contents ###
 
-+ A. Genome assembly files
++ A. Genome files
 + B. Bioinformatic scripts
-
 
 
 ***************************************
@@ -23,23 +22,12 @@ reference needed here. Link below needs updating once established
 ### A. Genome assembly files  ###
 
 
-***************************************
++ `Pcalbum_chromosome_and_unplaced.naf` — final genome assembly with chromosomes and unplaced scaffolds. This is compressed in Nucleotide Archival Format (NAF).
+- [link to website](https://github.com/KirillKryukov/naf)
+- [link to article](https://academic.oup.com/bioinformatics/article/35/19/3826/5364265)
 
-### A. Annotation ###
++ `Pcalbum_chromosome_and_unplaced.gff` - show results from running assemblathon_stats.pl, from the Assemblathon 2 competition (https://github.com/ucdavis-bioinformatics/assemblathon2-analysis), on the pre and post scaffolded geomes.
 
-We are using the proteins identified in our transcriptome assembly (Trinity), after collapsing the assembly using the tool Evigene. The raw RNAseq reads for the transcriptome assembly are on NCBI, here:
-
-- [link to RNAseq dataset](https://www.ncbi.nlm.nih.gov/nuccore/GIBK00000000#feature_GIBK00000000.1)
-
-and the identified proteins are listed below.
-
-***************************************
-
-### Assessments ###
-
-+ `annotation.sh` — shows the steps for generating the annotation, as well as results.
-+ `genome_stats.sh` - show results from running assemblathon_stats.pl, from the Assemblathon 2 competition (https://github.com/ucdavis-bioinformatics/assemblathon2-analysis), on the pre and post scaffolded geomes.
-+ `transcriptome_assembly_proteins.sh` - shows summary stats on the protein file used for scaffolding and annotation.
 
 ***************************************
 
