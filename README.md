@@ -27,17 +27,21 @@ reference needed here. Link below needs updating once established
 
 + `genome_assembly` - scripts for running our BUSCO assessment of the genome versions.
 
++ `genome_to_chromosome` - scripts for integrating the genome assembly with the linkage map.
+
++ `linage_map` - apg files for each chromosome and PDFs of Marley maps for each linkage group.
+
 
 ***************************************
 
 ### B. Genome assembly files ###
 
-The CEGMA distribution contains the following files and directories:
+The v1 distribution contains the following files in /publication_files:
 
-+ `Pcalbum_chromosome_and_unplaced.naf` — final genome assembly with chromosomes and unplaced scaffolds. This is compressed in Nucleotide Archival Format (NAF).
++ `Pcalbum_chromosome_and_unplaced.naf` — final genome assembly with chromosomes and unplaced scaffolds. This is compressed Pcalbum_chromosome_and_unplaced.fa in Nucleotide Archival Format (NAF). More on NAF, which is much more efficient than PIGZ compression:
 - [link to website](https://github.com/KirillKryukov/naf)
 - [link to article](https://academic.oup.com/bioinformatics/article/35/19/3826/5364265)
 
-+ `Pcalbum_chromosome_and_unplaced.gff` - show results from running assemblathon_stats.pl, from the Assemblathon 2 competition (https://github.com/ucdavis-bioinformatics/assemblathon2-analysis), on the pre and post scaffolded geomes.
++ `Pcalbum_chromosome_and_unplaced.gff` - annotation for the final assembly, using BRAKER2 with both Arthropod proteins and RNAseq data for annotation training.
 
 + `README.md` — This file.
