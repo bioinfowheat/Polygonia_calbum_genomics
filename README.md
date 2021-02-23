@@ -1,11 +1,9 @@
-# Polygonia_calbum_genome
-Polygonia calbum genome
+# Polygonia calbum genome and annotation #
 
-# Colias_crocea genome and annotation #
+Release 23 February 2021
 
-Release 1 December 2020
-
-Genomics resources for Colias crocea (Pieridae; Lepidoptera) from Woronik et al. 2019
+Associated Publication
+in review
 
 Woronik, A., Tunström, K., Perry, M.W., Neethiraj, R., Stefanescu, C., Celorio-Mancera, M. de la P., Brattström, O., Hill, J., Lehmann, P., Käkelä, R., et al. (2019). A transposable element insertion is associated with an alternative life history strategy. Nature Communications 10, 1–11.
 
