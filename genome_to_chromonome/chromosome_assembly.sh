@@ -4,7 +4,7 @@ scp CW12_11_2018.zip chrwhe@miles.zoologi.su.se:/mnt/griffin/chrwhe/Pc_album/lin
 cd /mnt/griffin/chrwhe/Pc_album/chomosome_level
 find . /mnt/griffin/chrwhe/Pc_album/linkagemap -name "*.agp" > agp_files
 while read p; do ln $p . ; done < agp_files
-ln -s /mnt/griffin/chrwhe/Pc_album/final/Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa .
+
 
 -------------------------------
     AssemblyQC Result
@@ -24,7 +24,7 @@ Contigs >= 1 Kbp :        14,773
 Contigs >= 10 Kbp :        1,215
 Contigs >= 1 Mbp :            69
 N50 value :      563,079
-Generated using /mnt/griffin/chrwhe/Polygonia_calbum/final/Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa
+Generated using Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa
 
 #
 perl /mnt/griffin/chrwhe/software/agp2genome.pl chr1.agp Pc_album.mpss.cln.msk.haploidA.tndrm.polished.fa

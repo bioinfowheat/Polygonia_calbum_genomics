@@ -16,10 +16,8 @@ Contigs >= 1 Kbp :            31
 Contigs >= 10 Kbp :           31
 Contigs >= 1 Mbp :            31
 N50 value :     11,721,770
-Generated using /mnt/griffin/chrwhe/Polygonia_calbum/chromosome_level/Pcalbum_chromosome.fa
+Generated using Pcalbum_chromosome.fa
 
-# but what about all the unplaced scaffolds?
-cd /mnt/griffin/chrwhe/Polygonia_calbum/chromosome_level/
 head all.agp
 LG10    1       129949  1       W       Sc0000482_pilon 1       129949  +
 LG10    129950  130049  2       U       100     contig  no      na
@@ -98,7 +96,7 @@ Contigs >= 1 Kbp :        13,494
 Contigs >= 10 Kbp :          450
 Contigs >= 1 Mbp :             0
 N50 value :        4,741
-Generated using /mnt/griffin/chrwhe/Polygonia_calbum/chromosome_level/unplaced_scaffolds.fa
+Generated using unplaced_scaffolds.fa
 
 
 # BUSCO
@@ -124,7 +122,11 @@ Contigs >= 1 Kbp :        13,525
 Contigs >= 10 Kbp :          481
 Contigs >= 1 Mbp :            31
 N50 value :     11,186,225
-Generated using /mnt/griffin/chrwhe/Polygonia_calbum/chromosome_level/Pcalbum_chromosome_and_unplaced.fa
+
+ennaf --fasta --temp-dir . Pcalbum_chromosome_and_unplaced.fa -o Pcalbum_chromosome_and_unplaced.naf
+# 77 Mb Pcalbum_chromosome_and_unplaced.naf
+# using PIGZ was 104 Mb ...
+
 
 #
 total genome 	373,116,874 bp

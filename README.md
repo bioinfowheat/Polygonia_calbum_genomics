@@ -5,7 +5,7 @@ Release 23 February 2021
 Associated Publication
 in review
 
-Woronik, A., Tunström, K., Perry, M.W., Neethiraj, R., Stefanescu, C., Celorio-Mancera, M. de la P., Brattström, O., Hill, J., Lehmann, P., Käkelä, R., et al. (2019). A transposable element insertion is associated with an alternative life history strategy. Nature Communications 10, 1–11.
+reference needed here. Link below needs updating once established
 
 - [link to article](https://www.nature.com/articles/s41467-019-13596-2)
 
@@ -13,18 +13,19 @@ Woronik, A., Tunström, K., Perry, M.W., Neethiraj, R., Stefanescu, C., Celorio-
 
 ### Contents ###
 
-+ A. How we generated the annotation
-+ B. Assessments
-+ C. File Listing
++ A. Genome assembly files
++ B. Bioinformatic scripts
+
+
+
+***************************************
+
+### A. Genome assembly files  ###
+
 
 ***************************************
 
 ### A. Annotation ###
-Here we are using MESPA, which is a effectively a wrapper for spaln2, which uses the results to scaffold assemblies by proteins and then generates a GFF file based upon the input protein sequences, as well as summary stats. We use it cause it works and is very fast, but there are perhaps other methods that are better, both for scaffolding and annotation (e.g. BRAKER)
-
-Neethiraj, R., Hornett, E.A., Hill, J.A., and Wheat, C.W. (2017). Investigating the genomic basis of discrete phenotypes using a Pool-Seq-only approach: New insights into the genetics underlying colour variation in diverse taxa. Molecular Ecology 26, 4990–5002.
-
-- [link to article](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14205)
 
 We are using the proteins identified in our transcriptome assembly (Trinity), after collapsing the assembly using the tool Evigene. The raw RNAseq reads for the transcriptome assembly are on NCBI, here:
 
