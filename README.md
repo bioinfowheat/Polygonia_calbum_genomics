@@ -14,7 +14,7 @@ reference needed here. Link below needs updating once established
 ### Contents ###
 
 + A. Folders with bioinformatic scripts
-+ B. Genome files
++ B. Publication files
 
 
 ***************************************
@@ -31,10 +31,12 @@ reference needed here. Link below needs updating once established
 
 + `linkage_map` - apg files for each chromosome and PDFs of Marley maps for each linkage group.
 
++ `synteny` - R scripts for the mapping and visualization of synteny between M. cinxia and P. c-album chromosome assemblies.
+
 
 ***************************************
 
-### B. Genome assembly files ###
+### B. Publication files ###
 
 The v1 distribution contains the following files in /publication_files:
 
