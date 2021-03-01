@@ -7,8 +7,7 @@ library(RColorBrewer)
 `%notin%` <- Negate(`%in%`)
 
 # set working directory
-#setwd("/mnt/griffin/racste/P_macdunnoughii/Pmac_alignments/NGM_genome/PmacD_qmRac4MedPur.cleaned.masked/qmRac4MedPur.cleaned.masked_polish/align_Pnapi")
-setwd("/mnt/griffin/chrwhe/Polygonia_calbum/synteny/")
+setwd("/Polygonia_calbum/synteny/")
 # Prefix
 Prefix <- "nucmer_aln_Mcin_v_Pca"
 
@@ -47,7 +46,7 @@ plot <- ggplot(data = Alignment2)
 plot + geom_point( aes(x = Percent, y = L1))
 plot + geom_histogram( aes(log10(L1)))
 
-# remove short Pnapi scaffolds, short alignments, low identity alignments
+# remove short scaffolds, short alignments, low identity alignments
 # t_per <- 90
 # t_len <- 2000
 t_per <- 90
