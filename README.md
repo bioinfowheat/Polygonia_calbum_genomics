@@ -1,13 +1,13 @@
 # Polygonia calbum genome and annotation #
 
-Release 23 February 2021
+Release 
 
 Associated Publication
 in review
 
 reference needed here. Link below needs updating once established
 
-- [link to article](https://www.nature.com/articles/s41467-019-13596-2)
+- [link to article]()
 
 ***************************************
 
@@ -29,7 +29,7 @@ reference needed here. Link below needs updating once established
 
 + `genome_to_chromosome` - scripts for integrating the genome assembly with the linkage map.
 
-+ `linage_map` - apg files for each chromosome and PDFs of Marley maps for each linkage group.
++ `linkage_map` - apg files for each chromosome and PDFs of Marley maps for each linkage group.
 
 
 ***************************************
