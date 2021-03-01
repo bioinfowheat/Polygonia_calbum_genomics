@@ -31,7 +31,7 @@ reference needed here. Link below needs updating once established
 
 + `linkage_map` - apg files for each chromosome and PDFs of Marley maps for each linkage group.
 
-+ `synteny` - R scripts for the mapping and visualization of synteny between M. cinxia and P. c-album chromosome assemblies.
++ `synteny` - R scripts for the alignment and visualization of synteny between M. cinxia and P. c-album chromosome assemblies.
 
 
 ***************************************
@@ -46,4 +46,4 @@ The v1 distribution contains the following files in /publication_files:
 
 + `Pcalbum_chromosome_and_unplaced.gff` - annotation for the final assembly, using BRAKER2 with both Arthropod proteins and RNAseq data for annotation training.
 
-+ `README.md` — This file.
+
