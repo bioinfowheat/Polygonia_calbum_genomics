@@ -7,7 +7,7 @@ in review
 
 reference needed here. Link below needs updating once established
 
-- [link to article]()
+- [link to article](https://academic.oup.com/gbe/article/13/5/evab054/6179806)
 
 ***************************************
 
